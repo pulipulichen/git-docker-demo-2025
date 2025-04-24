@@ -1,0 +1,5 @@
+services:
+  app:
+    image: httpd
+    ports:
+      - "8080:80"
